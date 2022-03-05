@@ -6,3 +6,13 @@
 */
 
 let arr = [10,20,30,40,50,60,70];
+
+let r  = function (){
+  if (arr[5] == 60){
+    return arr[5]
+}else{
+  return null
+  }
+}
+
+console.log (r())

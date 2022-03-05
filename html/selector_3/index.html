@@ -4,22 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
 <body>
-    <ul class="root">
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <ul>
-            <li>item</li>
-            <li>item</li>
-            <li>item</li>
-        </ul>
-        <li>item</li>
-        <li>item</li>
-    </ul>
-<p>string</p>
-<p>string</p>
-<p>string</p>
+    
+    <ul class="root"><!-- UL 1 (PADRE)-->
+      <li>item</li><!-- HIJO 1 DE UL 1 (PADRE)-->
+      <li>item</li><!-- HIJO 2 DE UL 1 (PADRE)-->
+      <li>item</li><!-- HIJO 3 DE UL 1 (PADRE)-->
+      <li>item</li><!-- HIJO 4 DE UL 1 (PADRE)-->
+        <ul><!-- UL 2 (INTERNO DE PADRE)-->
+            <li>item</li> <!-- HIJO 1 DE UL 2 (INTERNO DE PADRE)-->
+            <li>item</li> <!-- HIJO 2 DE UL 2 (INTERNO DE PADRE)-->
+            <li>item</li> <!-- HIJO 3 DE UL 2 (INTERNO DE PADRE)-->
+        </ul><!-- CIERRE DE UL 2 --> 
+      <li>item</li><!-- HIJO 5 DE UL 1 (PADRE)-->
+      <li>item</li><!-- HIJO 6 DE UL 1 (PADRE)-->
+    </ul><!-- CIERRE DE UL 1 (PADRE)--> 
+
+  <p>string</p><!-- PARRAFOS EXTERNOS A UL 1 (PADRE)-->
+  <p>string</p>
+  <p>string</p>
+
+</body>
+</html>

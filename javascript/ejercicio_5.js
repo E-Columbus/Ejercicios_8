@@ -14,3 +14,16 @@
 let arr = [10,20,30,40,50,60,70];
 
 let data = [80, 90, 100];
+
+// FORMA 1 - ciclo con push
+for (var arrPos = 0 ; arrPos <= 9 ; arrPos++){
+  arr.push(data[0], data[1], data[2])
+  console.log (arr[arrPos])
+}
+
+// FORMA 2 - ciclo con operador spread
+for (var arrdataPos = 0 ; arrdataPos <= 9 ; arrdataPos++){
+  const arrdata = [...arr, ...data]
+    console.log (arrdata[arrdataPos])
+  }
+  

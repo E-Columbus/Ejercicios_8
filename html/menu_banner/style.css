@@ -1,0 +1,77 @@
+/* Asignacion de estilo especifico de letras */
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer:ital@1&display=swap');
+
+
+/* Determinacion de variables de color para las letras de cada elemento individual y el fondo con convencion de nombramiento */
+:root{
+--bg-color: #cc62cc;
+--font-color-menu: #ffffff;
+--font-color-menu-links: #ffffff;
+--font-color-banner: #ffffff;
+}
+
+/* Asignacion general de margen y color de fondo */
+*{
+margin: 0px;
+background: var(--bg-color);
+}
+
+/* Remocion de estilos D.O.M por defecto */
+a{
+text-decoration: none;
+}
+
+ul{
+list-style: none;
+}
+
+li{
+list-style: none;
+}
+
+/* MENU GENERAL */
+.menu{
+font-family: 'IM Fell Great Primer', serif;
+color: var(--font-color-menu);
+text-transform:uppercase;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0px 150px 0px 0px;
+height: 120px
+}
+
+/* HOME - ABOUT - SERVICES - CONTACT y LOGO*/
+.menu .menu-links ul{
+display: flex;
+padding: 0px 0px 0px 110px;
+}
+
+.menu .menu-links li{
+margin-left: 30px;
+}
+
+.menu .menu-links li a{
+color: var(--font-color-menu-links);
+}
+
+/* WELCOME TO MY SITE */
+.banner{
+font-size: 2rem;
+display: flex;
+justify-content: center;
+height: 100vh;
+align-items: center;
+}
+
+.banner div{
+font-family: 'IM Fell Great Primer', serif;
+display: flex;
+flex-direction: column;
+align-items:center;
+color: var(--font-color-banner);
+}
+
+.banner div h1{
+margin: 0px 0px 500px 0px;
+}

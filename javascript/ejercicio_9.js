@@ -33,3 +33,34 @@ let users = [
      country:"ecuador"   
     },
 ];
+
+
+// 1 - MAP
+users.map(function(result){
+  console.log (result)
+})
+
+console.log("=========================================")
+
+// 2 - FOR
+for (var arrPos = 0 ; arrPos <= 3 ; arrPos++){
+  console.log (users[arrPos])
+}
+
+console.log("=========================================")
+
+// 3 - WHILE
+let i = 0;
+let len = users.length;
+
+while(i < len){
+   console.log(users[i]);
+   i++;
+}
+
+console.log("=========================================")
+
+// 4 - FOREACH
+users.forEach(function(users) {
+  console.log(users);
+});

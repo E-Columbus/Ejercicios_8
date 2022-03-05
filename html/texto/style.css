@@ -1,0 +1,19 @@
+:root{
+--font-color:#020262;
+}
+
+/* la 1ra letra del ejercicio ya venia en mayuscula, pero si fuese minuscula este convertiria solo la primera */
+.text:first-letter{
+text-transform: uppercase
+}
+
+.text {
+color:var(--font-color);
+font-weight: bold;
+/* text-transform: capitalize; (haria mayusculas todas las primeras de cada palabra) */
+}
+    
+
+
+
+

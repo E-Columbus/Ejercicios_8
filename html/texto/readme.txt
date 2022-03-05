@@ -6,7 +6,6 @@ con negritas de valor "bold"
 
 NOTA: emplear el esquema de variables para el color
 
-
-    <div>
-        <p class="text">Magna minim adipisicing.</p>
-    </div>
+<div>
+ <p class="text">Magna minim adipisicing.</p>
+</div>

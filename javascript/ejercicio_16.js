@@ -10,6 +10,11 @@
 
 let auto = {
     nombre:"",
-    modelo:""
- };
- 
+    modelo:"",
+    __proto__:{
+    motor:"V8",
+    origen:"Alemania", 
+    }
+  };
+
+console.log (auto.__proto__)

@@ -14,8 +14,6 @@ font-family: 'Syne Tactile', cursive;
 
 4) la ultima etiqueta <p> con el selector de clases, aplicar un fondo azul: #ccccff
 
-
-
 <div>
 <p>Nulla eu ea consequat incididunt dolor excepteur labore irud.</p>
 </div>

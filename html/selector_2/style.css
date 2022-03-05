@@ -1,0 +1,3 @@
+.root > li:nth-child(-n+5) {
+color: red;   
+}
